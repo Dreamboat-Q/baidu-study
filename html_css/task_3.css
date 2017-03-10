@@ -1,0 +1,35 @@
+#img_1,.img_2{
+  width: 80px;
+  height: 80px;
+  border: 1px solid #999;
+  background-color: #eee;
+}
+.img_2{
+  margin: 0 0 20px 10px;
+}
+#img_2_1{
+  margin-bottom: 0;
+}
+.border,body{
+  border: 1px solid #999;
+  padding: 20px;
+}
+body{
+  height: 530px;
+}
+#div_1{
+  width: 180px;
+  position: absolute;
+  left: 20px;
+  top:20px;
+}
+#div_2{
+  margin:-9px 145px 0 225px;
+  padding: 0 20px;
+}
+#div_3{
+  width: 100px;
+  position: absolute;
+  right: 20px;
+  top:20px;
+}
