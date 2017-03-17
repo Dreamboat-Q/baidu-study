@@ -1,0 +1,302 @@
+body{
+  width: 980px;
+  margin:0 auto;
+}
+p,h1,h3{
+  margin: 0;
+}
+/*为什么给all这个div居中没有用，必须给body*/
+.all{
+  position: relative;
+  width: 892px;
+  height: 1386px;
+  background-color: #ffffff;
+  padding: 0 44px;
+}
+header{
+  font-size: 12px;
+  font-family: SimHei;
+  position: relative;
+  border-bottom: 2px solid #938e8c;
+}
+.head_left{
+  height: 61px;
+  width: 110px;
+  background-color: #d45d5c;
+}
+.head_left span{
+  color: #ffffff;
+  position: absolute;
+  bottom: 3px;
+  left: 5px;
+}
+.head_right{
+  color: #d45d5c;
+  position: absolute;
+  bottom:3px;
+  right: 0;
+}
+.top_picture,.top_right{
+  margin-top: 35px;
+}
+.top_right{
+  width: 203px;
+  border-top: 2px solid #cc8091;
+  float: right;
+}
+.top_right h3{
+  font-size:24px;
+  font-family: 微软雅黑;
+  color: #000000;
+  text-decoration: underline;
+  line-height: 40px;
+  font-variant: small-caps;
+}
+#about{
+  font-size:12px;
+  font-family: 楷体;
+  color: #676767;
+  line-height: 10px;
+}
+/*斜体，如何不出框*/
+.top_right h1{
+  font-size: 116px;
+  font-family: 微软雅黑;
+  font-style: oblique;
+  color: #75b86b;
+}
+.top_right_1,.top_right_2,.top_right_3{
+  color:#cc8091 ;
+  font-family:微软雅黑;
+}
+.top_right_1{
+  font-size: 55px;
+}
+/*不同大小的字体，如何在同一行*/
+.top_right_all{
+  float: right;
+  margin-right: 33px;
+  margin-top: 26px;
+}
+.top_right_3{
+  font-size: 12px;
+  color: rgb(207, 207, 207);
+}
+.text{
+  margin: 35px 25px 50px 0;
+  float: left;
+}
+.text h3{
+  font-size: 18px;
+  font-family: 微软雅黑;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+.text p{
+  font-size: 13px;
+  font-family: 宋体;
+  line-height: 18px;
+}
+.text span{
+  font-size: 15px;
+  font-family: 微软雅黑；
+}
+#text_1{
+  width: 230px;
+}
+#text_1 h3{
+  color: #418c59;
+}
+#text_2{
+  width: 210px;
+}
+#text_2 h3{
+  color: #d2994f;
+}
+#text_3{
+  width: 150px;
+  opacity: 0.7;
+}
+#text_3 h3{
+  color: #cc7680;
+}
+#text_3 p,#text_3 span{
+  line-height: 23px;
+}
+.number{
+  color: #cd4a48;
+  font-style: oblique;
+}
+.bottom_left{
+  float: left;
+  width: 415px;
+}
+.bottom_left_1{
+  border-bottom: 2px solid #11456b;
+  font-family: 黑体;
+  font-weight: bold;
+}
+.bottom__left_text_1{
+  font-size: 72px;
+  font-style: oblique;
+  color: #f5e327;
+}
+.bottom__left_text_2,.bottom__left_text_3{
+  font-size: 42px;
+  color: #11456b;
+  line-height: 16px;
+}
+.bottom__left_text_2{
+  margin-left: 15px;
+}
+.bottom__left_text_4{
+  font-size: 33px;
+  color: #11456b;
+  margin: 15px auto 10px auto;
+}
+.bottom_left_2{
+  margin: 25px auto;
+}
+/*文字如何两边对齐？一定要float吗？*/
+.qian{
+  font-size: 70px;
+  color: #f5e327;
+  font-family: 微软雅黑;
+  float: left;
+}
+.qianduan_1,.qianduan_2{
+  font-size: 12px;
+  color: #767777;
+  font-family: 宋体;
+  line-height: 16px;
+}
+.qianduan_2{
+  text-indent: 2em;
+}
+.bottom_left_2 img{
+  float: right;
+  margin: 10px 0 10px 10px;
+}
+/*这里开始代码就乱到爆炸了*/
+.bottom_right{
+  float: right;
+  margin-top: 10px;
+}
+.bottom_right,.bottom_right_1 img{
+  width: 458px;
+}
+.bottom_right_1{
+  font-family: 微软雅黑;
+}
+.bottom_text_1{
+  border-left: 3px solid #72b16a;
+  font-size: 26px;
+  color: #fff;
+  position: relative;
+  bottom: 50px;
+  left:35px;
+  padding:4px 10px;
+}
+.bottom_text_2{
+  font-size: 15px;
+  color: #72b16a;
+  font-style: oblique;
+  line-height: 140%;
+  position: relative;
+  bottom: 50px;
+  left:30px;
+}
+.bottom_right_2{
+  width: 459px;
+  height: 318px;
+  background-color: rgb(226, 227, 205);
+}
+.bottom_right_2_1{
+  padding: 20px 30px;
+}
+.bottom_right_2_1 span{
+    line-height: 40px;
+}
+.sanjiao{
+  font-size: 10px;
+  color: #595d71;
+  margin-left:auto;
+}
+.xiaoqianduan{
+  font-size: 12px;
+  font-style: oblique;
+}
+.bottom_right_2_2{
+  background-color: rgb(233, 126, 115);
+  height: 151px;
+  width: 260px;
+  float: left;
+}
+.bottom_right_0{
+  font-size: 110px;
+  color: #fff;
+  font-family: 微软雅黑;
+  float: left;
+  margin-left: 10px;
+}
+.bottom_right_2_2_1{
+  border-left: 2px solid #fff;
+  height: 86px;
+  float: right;
+  padding-left: 8px;
+  margin: 32px 10px auto auto;
+}
+.bottom_one{
+  font-size: 21px;
+  color: #fff;
+  font-family: 黑体;
+  line-height: 24px;
+  font-style: oblique;
+}
+.bottom_two{
+  font-size: 12px;
+  color: #fff;
+  font-family: 黑体;
+}
+.bottom_right_2_3_1{
+  font-size: 72px;
+  color: #d45d5c;
+  font-family: 黑体;
+}
+.bottom_right_p{
+  font-size: 14px;
+  color: #5a5b5b;
+  font-family: 黑体;
+  font-style: oblique;
+  position: relative;
+  left: 270px;
+  bottom: 130px;
+  width: 162px;
+  height: 140px;
+}
+#top_span{
+  position: relative;
+  top:0;
+  right: 25px;
+}
+#bottom_span{
+  position: relative;
+  bottom: 120px;
+  left: 400px;
+}
+footer{
+  border-top: 1px solid #938e8c;
+  width: 892px;
+  height: 40px;
+  clear: both;
+}
+footer p{
+  font-size: 12px;
+  color: #d45d5c;
+  font-family: 黑体;
+  float: right;
+}
+/*总结：
+1、冗余代码，多
+2、思维结构、代码结构，乱
+3、制作速度，慢*/
