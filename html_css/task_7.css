@@ -1,0 +1,309 @@
+/*整体*/
+/*居中显示有问题，margin好像不起作用*/
+body{
+  width: 1280px;
+  margin: 0 auto;
+  font-family: 微软雅黑;
+}
+p,h2,h3{
+  margin: 0;
+}
+p,span,li,a{
+  font-size: 15px;
+}
+h3{
+  font-size: 20px;
+}
+h2{
+  font-size: 30px;
+}
+/*头部*/
+header{
+  margin: 10px auto;
+}
+.logo{
+  margin-left: 55px;
+}
+header nav{
+  float: right;
+  margin-right: 55px;
+  margin-top: 5px;
+}
+header a{
+  text-decoration: none;
+  padding: 15px;
+  color: rgb(191, 191, 191);
+}
+header a:hover{
+  border-bottom: 3px solid rgb(204, 46, 46);
+  color: rgb(204, 46, 46);
+}
+/*第一个部分*/
+.big_picture_1{
+  position: absolute;
+  left: 0px;
+  top: 56px;
+  width: 1280px;
+  height: 854px;
+}
+.big_picture h3{
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  line-height: 0.45;
+  position: absolute;
+  left: 116px;
+  top: 327.054px;
+  font-weight: 400;
+}
+.big_picture p:nth-child(3){
+  font-size: 21px;
+  color: rgb(255, 253, 253);
+  line-height: 0.762;
+  position: absolute;
+  left: 124px;
+  top: 394.493px;
+  font-weight: 300;
+}
+.big_picture button{
+  background-color: rgb(204, 77, 60);
+  position: absolute;
+  left: 126px;
+  top: 485px;
+  width: 331px;
+  height: 65px;
+  color: white;
+  font-size: 30px;
+  line-height: 0.9;
+  border: none;
+}
+/*第二个部分*/
+.four {
+  background-image: url("task_1_7_1-assets/2.png");
+  position: absolute;
+  left: 0px;
+  top: 747px;
+  width: 1280px;
+  height: 250px;
+}
+/*第三个部分*/
+.book {
+  background-image: url("task_1_7_1-assets/3.png");
+  position: absolute;
+  left: 0px;
+  top: 997px;
+  width: 1281px;
+  height: 361px;
+}
+/*第四个部分*/
+/*absolute用多了，这个input如何显示一排？
+这个UL怎么到第二个input下面？
+我看到有人用visibility，但是我没看到他有设置鼠标点击会出来*/
+.book_book {
+  position: absolute;
+  left: 0px;
+  top: 1357px;
+  width: 1281px;
+  height: 341px;
+}
+.input {
+  position: absolute;
+  left: 126px;
+  top: 1410px;
+  width: 1030px;
+  height: 100px;
+}
+.sel{
+  margin-right: 22px;
+  padding-left: 12px;
+  width: 225px;
+  font-size: 12px;
+  height: 30px;
+}
+.input ul{
+  list-style: none;
+  background-color: rgb(185, 185, 185);
+  width: 200px;
+}
+.input li:hover{
+  background-color: rgb(176, 65, 45);
+}
+/*用letter之后，字不在中间。
+用align也没用*/
+.sub{
+  width: 235px;
+  height: 36px;
+  font-size: 15px;
+  background-color:  rgb(176, 65, 45);
+  border: 0;
+  color: white;
+  letter-spacing: 25px;
+  text-align: center;
+}
+/*第五个部分*/
+.four_picture {
+  background-image: url("task_1_7_1-assets/334.png");
+  position: absolute;
+  left: 0px;
+  top: 1672px;
+  width: 1281px;
+  height: 631px;
+}
+/*第六个部分*/
+.new_world {
+  background-image: url("task_1_7_1-assets/443.png");
+  position: absolute;
+  left: 0px;
+  top: 2297px;
+  width: 1280px;
+  height: 572px;
+}
+.new_world button{
+  position: absolute;
+  left: 1012px;
+  top: 367px;
+  width: 107px;
+  height: 35px;
+  color: red;
+  border: 1px solid red;
+  background-color: white;
+  z-index: 2;
+}
+/*第七个部分*/
+.new_us {
+  background-image: url("task_1_7_1-assets/554.png");
+  position: absolute;
+  left: 0px;
+  top: 2868px;
+  width: 1281px;
+  height: 521px;
+  z-index: 2;
+}
+.new_us button{
+  width: 170px;
+  height: 44px;
+  z-index: 2;
+  font-size: 20px;
+}
+.new_us button:nth-child(1){
+  position: absolute;
+  left: 128px;
+  top: 273px;
+  color: white;
+  background-color: rgb(230, 81, 81);
+  border: 1px solid white;
+}
+.new_us button:nth-child(2){
+  position: absolute;
+  left: 553px;
+  top: 273px;
+  border:1px solid  rgb(230, 81, 81);
+  color:  rgb(230, 81, 81);
+  background-color: white;
+}
+/*第八个部分*/
+.new_table {
+  background-image: url("task_1_7_1-assets/998.jpg");
+  position: absolute;
+  left: 0px;
+  top: 3380px;
+  width: 1280px;
+  height: 749px;
+}
+.new_input{
+  width: 650px;
+  height: 282px;
+  float: right;
+  position: absolute;
+  left: 501px;
+  top: 300px;
+}
+.new_input input{
+    width: 294px;
+    height: 40px;
+    background-color: #ededee;
+    border: none;
+    margin-bottom: 14px;
+    padding-left: 17px;
+    font-family: "宋体";
+    font-size: 12px;
+    color: #6c6868;
+    margin-right: 10px;
+}
+textarea{
+  width: 620px;
+  height: 100px;
+  resize: none;
+  border: none;
+  background-color: #ededee;
+  margin-bottom: 14px;
+  font-family: "宋体";
+  font-size: 12px;
+  color: #6c6868;
+  text-indent: 0.5em;
+  padding: 10px 10px;
+}
+.new_table input:nth-of-type(5){
+  width: 640px;
+  font-size: 14px;
+  font-family: "黑体";
+  color: #323333;
+}
+/*第九个部分*/
+.call_us {
+  background-image: url("task_1_7_1-assets/call.png");
+  position: absolute;
+  left: 0px;
+  top: 4138px;
+  width: 1281px;
+  height: 361px;
+}
+.e-m {
+  border: none;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  left: 385px;
+  top: 190px;
+  width: 411px;
+  height: 41px;
+}
+.call_us input:nth-of-type(2){
+  border: none;
+  background-color: #686166;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: "微软雅黑";
+  position: absolute;
+  left: 815px;
+  top: 190px;
+  width: 71px;
+  height: 43px;
+}
+.call_us ul{
+  list-style-type: none;
+  position: absolute;
+  left: 500px;
+  top: 255px;
+  height: 25px;
+}
+.call_us ul li{
+  display: inline-block;
+  margin: 0 10px;
+}
+.call_us a{
+  text-decoration:none;
+}
+/*底部*/
+footer {
+  background-image: url("task_1_7_1-assets/botton.png");
+  position: absolute;
+  left: 0px;
+  top: 4496px;
+  width: 1281px;
+  height: 59px;
+}
+/*
+1、此次在学习切图的过程中，教我们要学会如何偷懒，我就尝试了如何偷懒
+2、频繁的使用position，有什么需要注意的
+ */
